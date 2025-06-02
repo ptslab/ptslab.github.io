@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PTS Lab</title>
+    <link rel="icon" href="img/head.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('img/back.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-size: 16px;
+            font-family: 'Times New Roman', '標楷體';
+            color: #222222;
+            line-height: 1.5;
+        }
+    a:visited {
+        color: #D4C0CB;
+    }
+    a:hover {
+        color: #FA9BAC;
+    }
+    a:active {
+        color: #FFCC00;
+    }
+    a {
+        color: #6495ED;
+        text-decoration: none;
+    }
+        .container {
+            background: rgba(255,255,255,0.85);
+            max-width: 800px;
+            margin: 40px auto 40px auto;
+            padding: 32px 28px 32px 28px;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+        }
+        h1, h2 {
+            font-family:'Times New Roman', '標楷體';
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 0.2em;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 18px auto;
+            width: 120px;
+            height: auto;
+        }
+        h2 {
+            margin-top: 1.8em;
+            font-size: 1.4em;
+            border-left: 6px solid #097969;
+            padding-left: 12px;
+            color: #097969;
+        }
+        h3 {
+            font-family: 'Times New Roman', '標楷體';
+            font-size: 1.15em;
+            margin-top: 1.2em;
+            color: #444444;
+        }
+        p, li {
+            font-size: 1.1em;
+            line-height: 1.8;
+            font-family: 'Times New Roman', '標楷體';
+        }
+        ul {
+            margin-left: 1.5em;
+            list-style-type: square;
+        }
+        li {
+            list-style-type: square;
+        }
+        ul ul {
+            list-style-type: square;
+        }
+        ul ul > li {
+            list-style-type: square;
+        }
+        li {
+            position: relative;
+        }
+        ul > li::marker {
+            font-size: 1em;
+            content: "■ ";
+        }
+        ul ul > li::marker {
+            font-size: 1em;
+            content: "□ ";
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px 4vw;
+            }
+            .logo {
+                width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/head.png" alt="PTS Lab Logo" class="logo">
+        <h1>Political theory and Socialism Lab</h1>
+        <h2 id="introduction">Introduction</h2>
+        <p>
+        </p>
+        <h2 id="member">Members</h2>
+        <ul>
+            <li>Hsiao, Tzu-Chi </li>
+        </ul>
+        <h3>Current Students</h3>
+        <ul>
+            <li><strong>PhD Students</strong>
+                <ul>
+                    <li></li>
+                </ul>
+            </li>
+            <li><strong>Master's Students</strong>
+                <ul>
+                    <li></li>
+                </ul>
+            </li>
+            <li><strong>Bachelor's Students</strong>
+                <ul>
+                    <li></li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Alumni</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h2 id="contact">Contact</h2>
+        <p>
+            Address: <br>
+            E-mail: <a href="mailto:politicstas@gmail.com">politicstas@gmail.com</a> <br>
+        </p>
+        <br>
+<hr>
+Last modified on
+<script>
+function formatLastModified() {
+const months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
+let date = new Date(document.lastModified);
+let day = String(date.getDate()).padStart(2, '0');
+let month = months[date.getMonth()];
+let year = date.getFullYear();
+let hours = String(date.getHours()).padStart(2, '0');
+let minutes = String(date.getMinutes()).padStart(2, '0');
+let seconds = String(date.getSeconds()).padStart(2, '0');
+let timezone = "NST";
+return `${day} ${month} ${year} ${hours}:${minutes}:${seconds} ${timezone}`;
+}
+document.write(formatLastModified());
+</script>. <br>
+&gt; <a href="https://politics.tchsiao.github.io/website">Back to homepage</a>.
+    </div>
+</body></html>
