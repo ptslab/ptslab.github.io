@@ -9,6 +9,11 @@
         font-family: "Times New Roman", "標楷體";
         background-color: transparent;
         line-height: 1.5;
+      background-image: url('../img/back_pub.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
     }
     a:visited {
         color: #D4C0CB;
@@ -26,13 +31,6 @@
     .center{
         text-align: center;
     }
-    .background-image {
-      background-image: url('../img/back_pub.png');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: white;
-    }
         h2 {
             margin-top: 1.8em;
             font-size: 1.4em;
@@ -47,10 +45,9 @@
             color: #444444;
         }
 </style>
-<link rel="icon" type="image/x-icon" href="../img/head.ico">
+<link rel="icon" type="image/x-icon" href="../img/ico.ico">
 </head>
 <body>
-<div class="background-image">
 <h2 id="Publication">Publication</h2>
 <ol>
 <li></li>
@@ -72,6 +69,5 @@ return `${day} ${month} ${year} ${hours}:${minutes}:${seconds} ${timezone}`;
 document.write(formatLastModified());
 </script>. <br>
 &gt; <a href="../">Back to webpage</a>.
-</div>
 </body>
 </html>
